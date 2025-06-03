@@ -1,5 +1,5 @@
 # Используем образ с OpenJDK 17 (официальный образ)
-FROM eclipse-temurin:17-jdk-jammy
+FROM eclipse-temurin:21-jdk-jammy
 
 # Создаем директорию для сервера
 RUN mkdir -p /opt/minecraft/server
@@ -19,6 +19,7 @@ RUN chmod +x /opt/minecraft/start.sh
 
 # Открываем порт майнкрафта
 EXPOSE 25565
+EXPOSE 24454
 
 # Точка входа
 ENTRYPOINT ["/opt/minecraft/start.sh"]

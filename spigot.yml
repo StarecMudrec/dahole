@@ -159,6 +159,8 @@ world-settings:
     hopper-amount: 1
     hopper-can-load-chunks: false
     verbose: false
+  worldeditregentempworld:
+    verbose: false
 commands:
   spam-exclusions:
   - /skill
