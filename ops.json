@@ -1,7 +1,19 @@
 [
   {
+    "uuid": "21f8ebbc-7ec8-344e-a53e-984303e5691b",
+    "name": "VasuoDM",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "f1cf6f2e-9f39-3f13-8da0-93c24bbd1b53",
     "name": "RyanLM4",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "943ee83f-d163-3337-8191-1bc61e7d7ebb",
+    "name": "Rudeus_kh",
     "level": 4,
     "bypassesPlayerLimit": false
   }

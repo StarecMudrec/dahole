@@ -15,4 +15,4 @@ services:
       - ./data:/data
     tty: true
     stdin_open: true
-    mem_limit: 15G
+    mem_limit: 5G
