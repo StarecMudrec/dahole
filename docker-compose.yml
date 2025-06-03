@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  minecraft:
+    build: .
+    container_name: dahole-purpur
+    restart: unless-stopped
+    environment:
+      - EULA=true
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./:/opt/minecraft/server
+    tty: true
+    stdin_open: true
+    mem_limit: 4.5G
